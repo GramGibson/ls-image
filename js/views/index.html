@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<head>
+	<title></title>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no">
+	<style>
+	body { margin: 0; padding: 0; font: .9em sans-serif;}
+	#reload { background: #000; padding: .75em; color: #fff; font-weight: bold; cursor: pointer; }
+	#content { text-align: center; padding-top: 6em; }
+	#msg { color: #999; padding-top: 1em; }
+	#clear { text-decoration: underline; cursor: pointer; }
+	</style>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+	<script src="/socket.io/socket.io.js"></script>
+	<script src="/app.js"></script>
+	<script>	
+	</script>
+</head>
+
+<body>
+
+	<div id="reload" onclick="javascript:location.reload();">reload</div>	
+	<div id="content">
+		<img id="google-logo" />
+		<div id="msg"></div>
+		<div id="clear">clear local storage + reload</div>
+	</div>
+
+</body>
+</html>
