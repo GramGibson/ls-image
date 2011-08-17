@@ -31,3 +31,4 @@ $ ->
 		window.location.reload()
 			
 	loadImage 'google-logo', 'http://www.google.com/intl/en_com/images/srpr/logo1w.png'
+	loadImage 'svg-icon', 'http://localhost:7777/icon_tiny.svg'

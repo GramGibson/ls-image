@@ -5,9 +5,9 @@
 	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
 	<meta name="viewport" content="width=device-width, user-scalable=no">
 	<style>
-	body { margin: 0; padding: 0; font: .9em sans-serif;}
+	body { margin: 0; padding: 0; font: .9em sans-serif; }
 	#reload { background: #000; padding: .75em; color: #fff; font-weight: bold; cursor: pointer; }
-	#content { text-align: center; padding-top: 6em; }
+	#content { text-align: center; padding-top: 4em; }
 	#msg { color: #999; padding-top: 1em; }
 	#clear { text-decoration: underline; cursor: pointer; }
 	</style>
@@ -22,7 +22,8 @@
 
 	<div id="reload" onclick="javascript:location.reload();">reload</div>	
 	<div id="content">
-		<img id="google-logo" />
+		<img id="google-logo" style="width: 275px; height: 95px;" /><br />
+		<img id="svg-icon" style="width: 48px; height: 48px;" />
 		<div id="msg"></div>
 		<div id="clear">clear local storage + reload</div>
 	</div>

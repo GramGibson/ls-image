@@ -46,6 +46,7 @@
       store.clear();
       return window.location.reload();
     });
-    return loadImage('google-logo', 'http://www.google.com/intl/en_com/images/srpr/logo1w.png');
+    loadImage('google-logo', 'http://www.google.com/intl/en_com/images/srpr/logo1w.png');
+    return loadImage('svg-icon', 'http://localhost:7777/icon_tiny.svg');
   });
 }).call(this);
